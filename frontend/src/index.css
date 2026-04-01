@@ -1,0 +1,30 @@
+body {
+  --header-height: 30px;
+  margin: 0px;
+  padding: 0px;
+  height: 100dvh;
+  min-height: 430px;
+  overflow: hidden;
+}
+
+main {
+  --padding: 20px;
+  padding-left: var(--padding);
+  padding-right: var(--padding);
+  height: calc(100dvh - var(--header-height));
+  min-height: 430px;
+  overflow-y: auto;
+}
+
+button, .button {
+  padding: 1rem;
+  font-size: large;
+  border-radius: 10px;
+  background: rgba(0, 0, 255, 0.5);
+  box-shadow: 0 0 5px 1px rgba(0, 0, 255, 0.5);
+}
+
+button:hover, .button:hover {
+  cursor: pointer;
+  box-shadow: 5px 0 15px 1px rgba(0, 0, 0, 1);
+}

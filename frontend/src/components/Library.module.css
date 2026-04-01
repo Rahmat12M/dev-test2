@@ -1,0 +1,22 @@
+.books-wrapper {
+  display: flex;
+  gap: 15px;
+}
+
+.book-container {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 300px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  font-size: x-large;
+  font-weight: bold;
+  box-shadow: 0 0 5px 1px black;
+}
+
+.book-container:hover {
+  box-shadow: 10px 0 15px 2px black;
+  cursor: pointer;
+}

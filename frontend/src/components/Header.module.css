@@ -1,0 +1,35 @@
+.nav {
+  background-color: #333;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  color: white;
+  height: var(--header-height);
+}
+ 
+.activ {
+  font-weight: bold;
+}
+
+.navLink {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* .button {
+  padding: 1rem;
+  font-size: large;
+  border-radius: 10px;
+  background: rgba(0, 0, 255, 0.5);
+  box-shadow: 0 0 5px 1px rgba(0, 0, 255, 0.5);
+}
+
+.button:hover {
+  cursor: pointer;
+  box-shadow: 5px 0 15px 1px rgba(0, 0, 0, 1);
+} */
