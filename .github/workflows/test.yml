@@ -1,12 +1,12 @@
-name: Run yest Tests for "dev-project-day"
+name: Run yest Tests for "dev-test2"
 
 on:
   push:
     branches:
-      - rahmat-test
+      - test-action
   pull_request:
     branches:
-      - rahmat-test
+      - test-action
 
 jobs:
   test:
